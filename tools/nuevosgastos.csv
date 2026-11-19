@@ -1,0 +1,26 @@
+id,fecha,cantidad,tipo,descripcion
+0,2026-11-02,12.22,comida,menu del dia
+0,2026-11-02,5.55,transporte,Tren fantasma
+0,2026-11-02,4.12,transporte,Autob�s fantasma
+0,2026-11-03,15.75,comida,menu del d�a
+0,2026-11-03,32.13,comida,compra de la semana
+0,2026-11-04,8.50,transporte,metro
+0,2026-11-04,3.25,comida,cafe y tostada
+0,2026-11-05,46.80,hogar,compra de limpieza
+0,2026-11-06,18.40,ocio,entrada de cine
+0,2026-11-06,6.20,comida,merienda
+0,2026-11-07,27.35,comida,compra de alimentos
+0,2026-11-08,14.00,transporte,gasolina
+0,2026-11-09,9.99,salud,farmacia
+0,2026-11-10,22.50,comida,cena
+0,2026-11-10,4.80,transporte,autobus
+0,2026-11-11,35.00,hogar,productos para casa
+0,2026-11-12,12.75,ocio,museo
+0,2026-11-12,7.30,comida,almuerzo
+0,2026-11-13,19.60,transporte,taxi
+0,2026-11-14,54.25,comida,compra semanal
+0,2026-11-15,11.50,ocio,libro
+0,2026-11-16,16.90,salud,consulta
+0,2026-11-16,5.10,comida,desayuno
+0,2026-11-16,8.75,transporte,parking
+0,2026-11-16,13.20,comida,compra de fruta

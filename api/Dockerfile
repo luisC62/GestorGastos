@@ -1,0 +1,18 @@
+FROM python:3.13-slim
+
+# Install uv.
+COPY --from=ghcr.io/astral-sh/uv:latest /uv /uvx /bin/
+
+# Copy the application into the container.
+COPY . /app
+
+# Install the application dependencies.
+WORKDIR /app
+RUN uv sync --frozen --no-cache
+
+# Run the application.
+CMD ["/app/.venv/bin/uvicorn", "main:app", "--port", "8000", "--host", "0.0.0.0"]
+
+# To build the docker image type: docker build -t luisc062/misgastos-api:v1 .
+# To push the image to docker hub (after login) type: docker push luisc062/misgastos-api:v1
+# To run the docker container type: docker run -p 8000:8000 luisc062/misgastos-api:v1
